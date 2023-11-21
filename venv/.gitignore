@@ -98,6 +98,12 @@ celerybeat-schedule.*
 # SageMath parsed files
 *.sage.py
 
+# Ignore Django migration files
+**/migrations/
+**/__pycache__/
+*.pyc
+*.pyo
+
 # Environments
 .env
 .venv
